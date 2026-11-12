@@ -1,0 +1,26 @@
+.git
+.gitignore
+.cursor
+.vscode
+.idea
+*.md
+.DS_Store
+
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv
+.env
+.env.local
+
+# Uploads, results and stray test clips never belong in the image.
+climb_analyzer/data/
+*.mp4
+*.mov
+*.m4v
+*.webm
+*.avi
+*.mkv
